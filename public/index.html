@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Scraping With Mongoose</title>
+    <style>
+    .jumbotron {
+        background-color: rgb(236, 181, 108);
+        color: white;
+        text-align: center;
+        /* font-size: 30px; */
+      }
+
+      #main-title {
+        font-family: 'Anton', sans-serif;
+        font-size: 80px;
+      }
+      body { background-color: rgb(245, 187, 190) }
+      #wrapper {
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 2%;
+      }
+      #articles {
+        display: inline-block;
+        overflow: auto;
+        width: 60%;
+        height: 800px;
+        background-color: rgb(143, 70, 79);
+      }
+      #notes {
+        float: right;
+        width: 30%;
+        background-color:  rgb(245, 187, 190) ;
+      }
+      textarea, input {
+        display: block;
+        width: 100%;
+        background-color: rgb(143, 70, 79);
+      }
+      input {
+        height: 36px;
+        font-size: 24px;
+      }
+      textarea {
+        height: 150px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="jumbotron jumbotron-fluid shadow">
+            
+          <h1 id="main-title">~ Welcome to Site Scraper Space~</h1>
+          <h5>Scrape any site </h5>       
+  </div>
+    <div id="wrapper">
+      <h2><i> Site News : Follow Echo JS on Twitter@echos.js</i></h2>
+      <div id="articles">Articles</div>
+      <div id="notes">Notes</div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
